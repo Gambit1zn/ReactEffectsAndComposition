@@ -13,6 +13,7 @@ function App() {
     {
       setIsLoggedIn(true);
     }
+    // eslint-disable-next-line
   }, []);
 
   const loginHandler = (email, password) => {
